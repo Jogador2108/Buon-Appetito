@@ -60,6 +60,10 @@ h2 {
   gap: 30px;
 }
 
+.produtos h2 {
+  margin-top: -20px; /* Ajusta a posição para alinhar com os produtos */
+}
+
 .card {
   background-color: #222;
   border: 2px solid #2ecc71;
