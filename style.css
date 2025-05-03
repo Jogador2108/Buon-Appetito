@@ -101,11 +101,4 @@ footer {
   border-top: 4px solid #2ecc71;
   font-size: 16px;
   color: #aaa;
-} 
-
-/* Adicionando responsividade */
-@media (max-width: 768px) {
-  .banner {
-    max-height: 250px;
-  }
 }
