@@ -46,7 +46,7 @@ h2 {
   margin-bottom: 20px;
   border-bottom: 2px solid #2ecc71;
   padding-bottom: 10px;
-  text-align: center; /* Centraliza o título */
+  text-align: center; /* Centraliza o título "Nossos Produtos" */
 }
 
 .sobre p,
@@ -57,7 +57,7 @@ h2 {
 
 .produtos {
   display: grid; /* Usei grid para garantir que os produtos fiquem lado a lado */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Faz os produtos ficarem responsivos */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta os produtos responsivamente */
   gap: 30px; /* Distância entre os produtos */
   margin-top: 20px; /* Distância do título */
 }
