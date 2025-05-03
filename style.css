@@ -55,14 +55,10 @@ h2 {
 }
 
 .produtos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Garantindo 3 colunas para os produtos */
-  gap: 30px;
-  margin-top: 20px; /* Ajuste da posição do título */
-}
-
-.produtos h2 {
-  margin-top: -10px; /* Ajusta a posição para alinhar com os produtos */
+  display: flex; /* Utilizando flexbox para colocar os produtos lado a lado */
+  justify-content: space-between; /* Espaçamento entre os produtos */
+  gap: 20px; /* Distância entre os produtos */
+  margin-top: 20px; /* Distância do título */
 }
 
 .card {
@@ -73,6 +69,7 @@ h2 {
   text-align: center;
   box-shadow: 0 0 10px #000;
   transition: transform 0.3s ease;
+  flex: 1; /* Garante que os cards tenham o mesmo tamanho */
 }
 
 .card:hover {
