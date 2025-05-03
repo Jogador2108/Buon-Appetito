@@ -1,1 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #f0f0f0;
+  line-height: 1.6;
+  font-size: 18px;
+}
 
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  border-bottom: 4px solid #e63946;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 12px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #2ecc71; /* Verde vibrante */
+  margin: 10px 0;
+}
+
+.slogan {
+  font-size: 20px;
+  color: #e63946; /* Vermelho destaque */
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 32px;
+  color: #2ecc71;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #2ecc71;
+  padding-bottom: 10px;
+  text-align: center; /* Centraliza o título "Nossos Produtos" */
+}
+
+.sobre p,
+.contato p {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.produtos {
+  display: grid; /* Usei grid para garantir que os produtos fiquem lado a lado */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta os produtos responsivamente */
+  gap: 30px; /* Distância entre os produtos */
+  margin-top: 20px; /* Distância do título */
+}
+
+.card {
+  background-color: #222;
+  border: 2px solid #2ecc71;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  border-color: #e63946;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #e63946;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  border-top: 4px solid #2ecc71;
+  font-size: 16px;
+  color: #aaa;
+}
