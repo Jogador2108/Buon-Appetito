@@ -8,6 +8,8 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: #000;
   color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 header {
@@ -20,7 +22,7 @@ header {
 }
 
 .logo {
-  width: 140px;
+  width: 150px;
 }
 
 nav ul {
@@ -33,11 +35,12 @@ nav a {
   text-decoration: none;
   color: #fff;
   font-weight: bold;
+  font-size: 20px;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #ffcc00;
+  color: #39ff14; /* Verde Neon */
 }
 
 #banner img {
@@ -48,16 +51,21 @@ nav a:hover {
 }
 
 section {
-  padding: 40px 20px;
+  padding: 50px 20px;
   max-width: 1000px;
   margin: auto;
 }
 
 h2 {
-  color: #e63946;
+  color: #e63946; /* Vermelho */
   margin-bottom: 20px;
   border-left: 5px solid #e63946;
   padding-left: 10px;
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .cardapio-lista {
@@ -68,16 +76,27 @@ h2 {
 
 .item {
   background-color: #222;
-  padding: 20px;
-  border-radius: 8px;
+  padding: 25px;
+  border-radius: 10px;
   width: calc(33% - 20px);
   min-width: 250px;
+  border: 2px solid #39ff14; /* Verde para destaque */
+}
+
+.item h3 {
+  color: #e63946;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 18px;
 }
 
 footer {
   background-color: #111;
   text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
+  padding: 30px;
+  font-size: 1em;
   color: #ccc;
 }
