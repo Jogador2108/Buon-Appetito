@@ -54,9 +54,10 @@ h2 {
 }
 
 .produtos {
-  display: flex; /* Usei flexbox para garantir o alinhamento lado a lado */
-  justify-content: space-between; /* Alinha os itens de forma espaçada */
-  gap: 30px; /* Distância entre os produtos */
+  display: flex; /* Flexbox para alinhar os produtos verticalmente */
+  flex-direction: column; /* Alinha os produtos em uma coluna */
+  gap: 30px; /* Espaçamento entre os produtos */
+  align-items: center; /* Centraliza os produtos */
 }
 
 .card {
@@ -67,7 +68,7 @@ h2 {
   text-align: center;
   box-shadow: 0 0 10px #000;
   transition: transform 0.3s ease;
-  flex: 1; /* Faz os produtos ocuparem o mesmo tamanho */
+  width: 80%; /* Limita a largura dos cards */
 }
 
 .card:hover {
